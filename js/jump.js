@@ -5,7 +5,5 @@ mql.addListener(function(e) {
 		//jump to mobile page
 		window.location.href = "indexmb.html";
 	} else {
-		// viewport 宽度大于等于 600 像素
-		window.location.href = "indexpc.html";
 	}
 });
